@@ -24,7 +24,7 @@ public class Area {
     public void obtenerArea()
     {
         int a=((this.getBase()*this.getAltura())/2);
-        this.setResultado(a);
+        this.setResultadoArea(a);
     }
     
     public int getBase()
@@ -47,13 +47,17 @@ public class Area {
     this.altura=altura;
     }
     
-    public int getResultado()
+    public int getResultadoArea()
     {
     return resultadoArea;
     }
     
-    public void setResultado(int resultadoArea)
+    public void setResultadoArea(int resultadoArea)
     {
     this.resultadoArea=resultadoArea;
     }
 }
+
+
+
+
